@@ -1,9 +1,9 @@
-org: LordFernan
+org: lordfernan
 service: api-s3
 
 provider:
   name: aws
-  runtime: python3.12	
+  runtime: python3.13	
   # Default memory size for functions (default: 256MB)
   memorySize: 1024
   timeout: 30
